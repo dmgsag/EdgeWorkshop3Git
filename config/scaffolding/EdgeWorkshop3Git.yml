@@ -1,0 +1,10 @@
+version: "1.0"
+info:
+  model: int-scaffold
+packages:
+- name: EdgeWorkshop3Git
+  gitServerName: git
+  gitUrl: https://github.com/dmgsag/EdgeWorkshop3Git
+  gitUsername: dmgsag
+  gitToken: edge.scaffolding.EdgeWorkshop3Git.git.gitToken
+  gitBranch: main
