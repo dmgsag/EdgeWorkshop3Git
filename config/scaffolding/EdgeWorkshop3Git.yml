@@ -1,6 +1,11 @@
 version: "1.0"
 info:
   model: int-scaffold
+services:
+- serviceName: edge.workshop3git.integrations:main
+  packages:
+  - name: EdgeWorkshop3Git
+    version: "1.0"
 packages:
 - name: EdgeWorkshop3Git
   gitServerName: git
